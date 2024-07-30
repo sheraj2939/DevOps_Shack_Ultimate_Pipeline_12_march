@@ -7,6 +7,7 @@
 
 
 ##prometheus.yml 
+```
     static_configs:
       - targets: ["localhost:9090"]
 
@@ -35,4 +36,5 @@
         target_label: instance
       - target_label: __address__
         replacement: 35.154.10.118:9115  # The blackbox exporter's real hostname:port.
+```
                                                                                         
